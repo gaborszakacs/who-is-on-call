@@ -21,11 +21,15 @@ func (a Announcer) DoItWithDrama() error {
 
 	fmt.Printf("So the one\n")
 	time.Sleep(1 * time.Second)
+
 	fmt.Printf("who is on-call this week\n")
 	time.Sleep(1 * time.Second)
+
 	fmt.Printf("is...\n")
 	time.Sleep(3 * time.Second)
+
 	fmt.Printf(a.dramatize(theOne))
+
 	return nil
 }
 
